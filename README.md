@@ -171,3 +171,6 @@ By default, user data is under:
 - `%USERPROFILE%\Documents\CrispyBills`
 
 This includes yearly databases, notes database, backups, and test artifacts.
+## License
+
+Crispy Bills is distributed under the [PolyForm Noncommercial License 1.0.0](./LICENSE), copyright (c) 2026 ClinicalSuppression.
