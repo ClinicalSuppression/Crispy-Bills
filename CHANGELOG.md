@@ -1,6 +1,16 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to this project will be documented in this file.
+
+## 1.9.0 - 2026-11-09
+
+### Features
+- feat: rebrand to the uniform icon family (deep-navy squircle, bold CB monogram over a banknote glyph) across the desktop icon, Android adaptive icon and splash (4d8fda3)
+
+### Fixes
+- fix(build): iOS / Mac Catalyst TFMs now apply only on macOS; plain restore on Windows no longer demands the macOS-only ios workload (2d1e134)
+- fix(android): adaptive icon now uses the transparent glyph foreground (appiconfg.svg as MauiIcon ForegroundFile) over a navy background (2d1e134)
+- fix(tests): CrispyBills.Mobile.ParityTests referenced the desktop project via a machine-local path; now repo-relative (2d1e134)
 
 ## 1.2.1 - 2026-03-18
 
