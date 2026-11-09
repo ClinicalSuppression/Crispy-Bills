@@ -4,7 +4,7 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>Crispy_Pig.ico</ApplicationIcon>
+    <ApplicationIcon>Crispy_Bills.ico</ApplicationIcon>
     <NoWarn>CA1416</NoWarn>
   </PropertyGroup>
 
@@ -32,6 +32,6 @@
 
   <!-- These XAML files become Page resources automatically -->
   <ItemGroup>
-    <Resource Include="Crispy_Pig.ico" />
+    <Resource Include="Crispy_Bills.ico" />
   </ItemGroup>
 </Project>

@@ -57,7 +57,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.png" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\crispypig_splash.png" Color="#EAC2E4" BaseSize="256,256" />
+		<MauiSplashScreen Include="Resources\Splash\crispy_bills_splash.png" Color="#1B1E33" BaseSize="256,256" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
