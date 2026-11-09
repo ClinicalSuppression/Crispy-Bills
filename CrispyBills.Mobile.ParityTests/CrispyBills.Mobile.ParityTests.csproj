@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Crispy_Bills\CrispyBills.csproj">
+    <ProjectReference Include="..\CrispyBills.csproj">
       <Aliases>Wpf</Aliases>
     </ProjectReference>
     <ProjectReference Include="..\CrispyBills.Core\CrispyBills.Core.csproj" />
