@@ -171,6 +171,28 @@ By default, user data is under:
 - `%USERPROFILE%\Documents\CrispyBills`
 
 This includes yearly databases, notes database, backups, and test artifacts.
+
+## Installation
+
+### Terminal / CLI (Source)
+
+Clone the repository and build the desktop app from source:
+
+```powershell
+git clone https://github.com/ClinicalSuppression/Crispy-Bills.git
+cd Crispy-Bills
+dotnet build CrispyBills.sln
+Start-Process -FilePath "bin\Debug\net8.0-windows\CrispyBills.exe" -WorkingDirectory "$PWD"
+```
+
+### Windows Installer
+
+Download the latest installer (`crispybills-vX.Y.Z-win-x64.exe`) from the [Releases](https://github.com/ClinicalSuppression/Crispy-Bills/releases) page and run it to install Crispy_Bills on your machine.
+
+### Android
+
+Download the latest APK (`crispybills-vX.Y.Z-android.apk`) from the [Releases](https://github.com/ClinicalSuppression/Crispy-Bills/releases) page and install it on your Android device.
+
 ## License
 
 Crispy Bills is distributed under the [PolyForm Noncommercial License 1.0.0](./LICENSE), copyright (c) 2026 ClinicalSuppression.
