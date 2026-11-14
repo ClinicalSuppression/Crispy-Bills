@@ -9,3 +9,11 @@ venv/
 *.sha256
 .DS_Store
 Thumbs.db
+
+# .NET build artifacts
+bin/
+obj/
+.vs/
+.vscode/
+artifacts/
+tools/publish/
